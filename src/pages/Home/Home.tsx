@@ -1,3 +1,4 @@
+import { PageWrapper } from "App.styled";
 import { Helmet } from "react-helmet";
 
 const Home: React.FC = () => {
@@ -6,7 +7,9 @@ const Home: React.FC = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <div>Home</div>
+      <PageWrapper>
+        <div>Home</div>
+      </PageWrapper>
     </>
   );
 };
